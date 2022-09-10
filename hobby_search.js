@@ -19,7 +19,7 @@ function main() {
     let baiduSearch = 'https://www.baidu.com/s?wd=' + keyword
 
     biliSearch = '<a target="_blank" href=' + biliSearch + '><button id=biliSearch>bilibili搜索</button></a> '
-    baiduSearch = '<a target="_blank" href=' + baiduSearch + '><button id=baiduSearch>baidu搜索</button></a> '
+    baiduSearch = '<a target="_blank" href=' + baiduSearch + '><button id=baiduSearch>Baidu搜索</button></a> '
 
     element.innerHTML = '<div>' + biliSearch + baiduSearch + '</div>' + keyword
 
