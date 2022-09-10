@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         hobby_search
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.2
 // @homepageURL https://github.com/swttkonjjj/hobby-search
 // @description  在兴趣爱好数据库中增加bilibli和百度搜索
 // @author       swtt
