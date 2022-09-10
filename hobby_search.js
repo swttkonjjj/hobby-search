@@ -23,12 +23,15 @@ function main() {
 
     element.innerHTML = '<div>' + biliSearch + baiduSearch + '</div>' + keyword
 
-    let biliCss = '#biliSearch { height: 45px;background-color: #00aeec;border-radius: 5px;color: white;font-size: large;'
-    let baiduCss = '#baiduSearch { height: 45px;background-color: #4e6ef2;border-radius: 5px;color: white;font-size: large;'
-
-    GM_addStyle(biliCss)
-    GM_addStyle(baiduCss)
+    if (keyword != ' - - - ') {
+        clearInterval(myVar)
+    }
 }
 
-main()
+let biliCss = '#biliSearch { height: 45px;background-color: #00aeec;border-radius: 5px;color: white;font-size: large;'
+let baiduCss = '#baiduSearch { height: 45px;background-color: #4e6ef2;border-radius: 5px;color: white;font-size: large;'
 
+GM_addStyle(biliCss)
+GM_addStyle(baiduCss)
+
+let myVar = setInterval(main, 100);
