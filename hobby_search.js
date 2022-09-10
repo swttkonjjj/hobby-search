@@ -5,7 +5,7 @@
 // @description  在xin'q
 // @author       swtt
 // @match        http://hobby.lkszj.info/info?id=*
-// @icon         https://www.google.com/s2/favicons?sz=64&domain=lkszj.info
+// @icon         https://github.com/swttkonjjj/hobby-search/blob/master/img/icon.jfif
 // @grant        GM_addStyle
 // ==/UserScript==
 
