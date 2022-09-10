@@ -4,6 +4,10 @@
 
 >在兴趣爱好数据库中增加bilibli和百度搜索按钮
 
+兴趣爱好数据库网址：[http://hobby.lkszj.info/](http://hobby.lkszj.info/)
+
+![search](./img/search.png)
+
 # 安装
 
 greasfork：[https://greasyfork.org/zh-CN/scripts/451081-hobby-search](https://greasyfork.org/zh-CN/scripts/451081-hobby-search)
